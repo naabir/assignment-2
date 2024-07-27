@@ -1,0 +1,500 @@
+
+
+
+
+
+/* ================ common part ============== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#unique-color{
+    background-color: steelblue;
+}
+#unique-color-1{
+    background-color: rgba(25, 39, 39, 0.585);
+}
+/* ============ navbar start here =========== */
+
+.navbar-container{
+    padding-top: 3rem;
+}
+#nav-special{
+    background-color: rgba(188, 36, 36, 0.751);
+    border-radius: 2rem;
+    
+}
+
+#bar{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.368);
+    padding: 1em 1rem;
+}
+.navbar-title{
+    font-size: 2rem;
+    color: rgb(110, 12, 12);
+}
+
+.nav-link{
+    display: flex;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 2rem;
+}
+
+.nav-item{
+    padding: 0.8rem 1.8rem;
+    cursor: pointer;
+}
+
+.nav-link li{
+    font-size: 1rem;
+    color: white;
+}
+
+
+/* ============ banner part satart ========== */
+
+#banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5rem;
+    background-color: rgba(0, 0, 0, 0.549);
+}
+#big{
+    font-size: 2rem;
+}
+#spe-btn{
+    background-color: rgba(69, 232, 178, 0.551);
+    border: none;
+}
+.banner-img{
+    position: relative;
+}
+.banner-img img{
+ width: 100%;
+ height: 100%;
+}
+
+.banner-img .first-btn{
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    right: 0px;
+    top:385px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: red;
+    backdrop-filter: blur(5px);
+    text-align: left;
+    cursor: pointer;
+}
+.second-btn{
+    display: flex;
+    column-gap: 10px;
+}
+.banner-img .second-btn{
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    position: absolute;
+    left: -25px;
+    bottom:120px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: red;
+    backdrop-filter: blur(5px);
+    text-align: left;
+    cursor: pointer;
+}
+.second-btn .one{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    margin: auto;
+}
+.banner-img button span{
+    font-size: 2rem;
+}
+.banner-title{
+    font-size: 4rem;
+    color: antiquewhite;
+    margin: 2rem 0;
+}
+.banner-dis{
+    font-size: 1rem;
+    color: antiquewhite;
+    margin-bottom:2rem ;
+}
+.btn{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.primary-btn{
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    /* background-color: rgba(137, 23, 23, 0.923); */
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 1px solid white;
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+/* ============ offer part start here ============== */
+
+.offer-section{
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+.offer-title{
+    font-size: 3rem;
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.offer-title span{
+    font-size: 4rem;
+    color: rgba(172, 29, 29, 0.71);
+}
+.offer-dis{
+    font-size: 2rem;
+    color: rgba(5, 1, 1, 0.644);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.offer-items{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.715);
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    
+}
+.offer-item{
+    color: white;
+}
+.offer-item h2{
+    font-size: 4rem;
+    text-align: center;
+}
+.offer-item p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.offer-items img{
+    position: absolute;
+    right: 0;
+    top: -245px;
+}
+/* =============== habit part start here =============== */
+.habit-title{
+    font-size: 3rem;
+    color: antiquewhite;
+    padding-top: 4rem;
+    text-align: center;
+}
+.habit-dis{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.797);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.habit-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+}
+.habit-item{
+    padding: 1rem;
+    margin: 3rem 0 7rem 0;
+}
+.habit-item img{
+    width: 100%;
+    border-radius: 50%;
+}
+.habit-item h4{
+    color: antiquewhite;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.habit-item p{
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+/* =========== run part start here  ============= */
+
+.run-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10rem;
+    background-color: rgba(0, 0, 0, 0.741);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.run-content h2{
+    font-size: 3rem;
+    color: antiquewhite;
+}
+.run-content p{
+    font-size: 1rem;
+    color: antiquewhite;
+    margin: 1rem 0 2rem 0;
+}
+
+.run-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem
+}
+
+.bmi-content{
+    padding: 3rem 0 3rem 10rem;
+}
+.bmi-content h2{
+    font-size: 4rem;
+    color: antiquewhite;
+}
+.bmi-content p{
+    font-size: 1rem;
+    color: black;
+    margin-top: 1rem;
+}
+
+/* ============ BMI calculator part start here ============= */
+table{
+
+    margin-top: 3rem;
+}
+
+table, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    border-collapse: collapse;
+}
+th, td{
+    padding: 0.6rem 1rem;
+    text-align: left;
+}
+
+
+#calculate-btn{
+    margin-top: 1.5rem;
+    background-color: rgba(0, 255, 255, 0.567);
+    border: none;
+}
+.bmi-items{
+    padding: 4rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* column-gap: 2rem; */
+}
+.bmi-item-1 table{
+    color: white;
+}
+
+.bmi-item-2 h3{
+    font-size: 2rem;  
+}
+.bmi-item-2 p{
+    font-size: 1rem;
+    margin: 1rem 0 2rem 0;
+
+}
+
+.bmi-input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+}
+
+input, select{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background: rgb(28, 19, 19);
+    padding: 1rem;
+    color: rgba(215, 215, 219, 0.5);
+    font-size: 1rem;
+    /* font-weight: 400; */
+}
+input,select:focus-visible{
+    color: red;
+}
+
+
+/* ================ team part start here  ============== */
+
+.team-container{
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+.team-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    background-color: rgba(0, 0, 0, 0.741);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 4rem;
+}
+.team-img{
+    position: relative;
+}
+.team-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.team-content{
+    color: wheat;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0 0 1.5rem 1.5rem;
+}
+.team-content h4{
+    font-size: 1.5rem;
+}
+
+/* ============== footer part start ============  */
+.footer-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 0;
+    column-gap: 8rem;
+
+}
+.footer-item-1 h2{
+    font-size: 4rem;
+    color: rgb(198, 29, 29);
+    margin-bottom: 2rem;
+}
+.footer-item-1 p{
+    font-size: 1rem;
+    color: rgb(36, 16, 16);
+}
+.footer-item-2 h3{
+    font-size: 3rem;
+    color: antiquewhite;
+    margin-bottom: 1rem;
+}
+.footer-item-2 p{
+    font-size: 1.5rem;
+    color: rgb(46, 32, 15);
+    margin-bottom: 0.8rem;
+}
+.horizental-line{
+    border: 1px solid red;
+}
+.footer-copyright{
+    font-size: 1.5rem;
+    color: rgb(179, 55, 55);
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+/* ========== responsive part ============= */
+
+
+@media screen and (max-width:36rem) {
+    .nav-link{
+        display: none;
+    }
+    #bar{
+        display: block;
+    }
+    #banner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #banner .primary-btn{
+        padding: 1rem 1.5rem;
+    }
+    .banner-img .first-btn{
+        top: 13%;
+        right: 0;
+    }
+    .banner-img .second-btn{
+        left: 0;
+        bottom: 40%;
+    }
+    .offer-items{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 2rem;
+        column-gap: 1rem;
+    }
+    .offer-dis{
+        margin-bottom: 15rem;
+    }
+    .habit-title{
+        padding-top:3rem ;
+    }
+    .habit-section{
+        grid-template-columns: repeat(1, 1fr);   
+    }
+    .habit-item{
+        margin: 2rem 0 0 0;
+    }
+    #habit-special{
+        margin-bottom: 3rem;
+    }
+    .run-container{
+        padding-top: 4rem;
+    }
+    .run-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .run-content .primary-btn{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .bmi-content{
+        padding: 3rem 0;
+    }
+    .bmi-items{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2rem 0;
+        row-gap: 3rem;
+    }
+    .team-item{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-item-2 h3{
+        margin-top: 2rem;
+    }
+    
+}
