@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 
 
@@ -173,9 +173,9 @@ body{
     line-height: 0.9;
 }
 .banner-title span{
-    font-family: "Style Script", cursive;
-    font-size: 4.8rem;
-    font-weight: 700;
+    font-family: 'Miama', sans-serif;                                       
+    font-size: 5.8rem;
+    font-weight: 400;
 }
 .banner-dis{
     color: rgba(255, 255, 255, 0.5);
@@ -425,9 +425,7 @@ input, select, option{
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
 }
-input,select:focus-visible{
-    color: red;
-}
+
 
 
 /* ================ team part start here  ============== */
